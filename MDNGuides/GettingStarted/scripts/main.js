@@ -1,6 +1,6 @@
 const myImage = document.querySelector('img')
 const originalWidth = myImage.style.width
-myImage.onmouseenter = function() {
+myImage.onmouseenter = function () {
     myImage.style.width = '510px'
 }
 myImage.onmouseleave = () => {
@@ -21,7 +21,7 @@ function setUserName() {
     } else {
         localStorage.setItem('name', myName)
         setHeading(myName)
-    }    
+    }
 }
 
 myButton.onclick = () => {
