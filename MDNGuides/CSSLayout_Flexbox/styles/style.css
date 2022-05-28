@@ -1,0 +1,51 @@
+html {
+	font-family: sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+header {
+	background: purple;
+	height: 100px;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	line-height: 100px;
+	margin: 0;
+}
+
+section {
+	display: flex;
+}
+
+article {
+	background: aqua;
+	padding: 10px;
+	margin: 10px;
+	flex: 1 200px;
+}
+
+article:nth-of-type(3) {
+	flex: 3 200px;
+	display: flex;
+	flex-flow: column;
+}
+
+article:nth-of-type(3) div:first-child {
+	flex: 1 100px;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center; /* along cross axis */
+	justify-content: space-around; /* along main axis */
+}
+
+button {
+	flex: 1 auto;
+	margin: 5px;
+	font-size: 18px;
+	line-height: 1.5;
+  }
