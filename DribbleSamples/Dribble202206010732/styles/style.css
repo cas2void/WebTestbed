@@ -1,0 +1,14 @@
+* {
+	border: 1px solid black;
+}
+
+main {
+	height: 91vh;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	height: 9vh;
+	margin: 0 5%;
+}
