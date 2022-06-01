@@ -1,9 +1,54 @@
-* {
-	border: 1px solid black;
+:root {
+	box-sizing: border-box;
+	font-size: calc(1vw + 0.6em);
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	background: #fbfbfc;
 }
 
 main {
-	height: 91vh;
+	/* border: 0px solid black; */
+	height: 90vh;
+	margin: 0;
+	background-image: url("../images/Dribble202206010732_01.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-x: center;
+}
+/* 
+main section {
+	margin: 65% 40% auto 6%;
+	color: #fbfbfc;
+}
+
+section h1 {
+	font-size: 7em;
+	margin: 0;
+	padding: 0;
+}
+
+section h2 {
+	font-size: 2em;
+	margin: 0;
+	padding: 0;
+	color: black;
+}
+
+.tag {
+	background-color: #fbfbfc;
+}
+
+section h3 {
+	font-size: 2em;
+	margin: 0;
+	padding: 0;
+	color: black;
 }
 
 nav {
@@ -12,3 +57,9 @@ nav {
 	height: 9vh;
 	margin: 0 5%;
 }
+
+.nav_button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} */
