@@ -1,0 +1,76 @@
+/* noto-serif-regular */
+@font-face {
+	font-family: 'Noto Serif';
+	font-style: normal;
+	font-weight: regular;
+	src: url('https://lib.baomitu.com/fonts/noto-serif/noto-serif-regular.eot');
+	/* IE9 Compat Modes */
+	src: local('Noto Serif'), local('NotoSerif-Normal'),
+		url('https://lib.baomitu.com/fonts/noto-serif/noto-serif-regular.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('https://lib.baomitu.com/fonts/noto-serif/noto-serif-regular.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('https://lib.baomitu.com/fonts/noto-serif/noto-serif-regular.woff') format('woff'),
+		/* Modern Browsers */
+		url('https://lib.baomitu.com/fonts/noto-serif/noto-serif-regular.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('https://lib.baomitu.com/fonts/noto-serif/noto-serif-regular.svg#NotoSerif') format('svg');
+	/* Legacy iOS */
+}
+
+/* noto-sans-regular */
+@font-face {
+	font-family: 'Noto Sans';
+	font-style: normal;
+	font-weight: regular;
+	src: url('https://lib.baomitu.com/fonts/noto-sans/noto-sans-regular.eot');
+	/* IE9 Compat Modes */
+	src: local('Noto Sans'), local('NotoSans-Normal'),
+		url('https://lib.baomitu.com/fonts/noto-sans/noto-sans-regular.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('https://lib.baomitu.com/fonts/noto-sans/noto-sans-regular.woff2') format('woff2'),
+		/* Super Modern Browsers */
+		url('https://lib.baomitu.com/fonts/noto-sans/noto-sans-regular.woff') format('woff'),
+		/* Modern Browsers */
+		url('https://lib.baomitu.com/fonts/noto-sans/noto-sans-regular.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('https://lib.baomitu.com/fonts/noto-sans/noto-sans-regular.svg#NotoSans') format('svg');
+	/* Legacy iOS */
+}
+
+/* General setup */
+
+html {
+	font-size: 10px;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+body {
+	width: 80%;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+/* Typography */
+
+h1 {
+	font-size: 4rem;
+}
+
+h2 {
+	font-size: 3rem;
+}
+
+h1,
+h2 {
+	font-family: 'Noto Serif', serif;
+	letter-spacing: 0.2rem;
+}
+
+p {
+	font-size: 1.8rem;
+	line-height: 1.6;
+	word-spacing: 0.6rem;
+	font-family: 'Noto Sans', sans-serif;
+}
