@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'abhaya_libreregular';
+    src: url('../fonts/AbhayaLibre-Regular-webfont.woff2') format('woff2'),
+         url('../fonts/AbhayaLibre-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/OpenSans-Regular-webfont.woff2') format('woff2'),
+         url('../fonts/OpenSans-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* General setup */
+
+html {
+	font-size: 10px;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+body {
+	width: 80%;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+/* Typography */
+
+h1 {
+	font-size: 4rem;
+}
+
+h2 {
+	font-size: 3rem;
+}
+
+h1, h2 {
+	font-family: 'abhaya_libreregular', serif;
+	letter-spacing: 0.2rem;
+}
+
+p {
+	font-size: 1.8rem;
+	line-height: 1.6;
+	word-spacing: 0.6rem;
+	font-family: 'open_sansregular', sans-serif;
+}
