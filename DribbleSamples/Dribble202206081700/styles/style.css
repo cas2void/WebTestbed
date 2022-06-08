@@ -1,0 +1,166 @@
+:root {
+	box-sizing: border-box;
+	font-size: calc(1vw + 0.6em);
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+* {
+	margin: 0;
+    padding: 0;
+}
+
+body {
+	display: grid;
+	background-color: #f6f6f6;
+}
+
+.body_container {
+	width: 74vw;
+	height: 86vh;
+	margin: 6vh auto;
+	color: #4e4d54;
+}
+
+nav {
+	height: 5%;
+}
+
+.nav_container {
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav_button {
+	max-height: 100%;
+	aspect-ratio: 1 / 1;
+	/* width: 50px; */
+	/* object-fit: fill; */
+}
+
+.back_button {
+	background-image: url("../images/back_icon.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 120%;
+}
+
+.search_button {
+	background-image: url("../images/search_icon.svg");
+	background-repeat: no-repeat;
+}
+
+header {
+	height: 30%;
+}
+
+.header_container {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.logo_shadow_wrapper {
+	filter: drop-shadow(4px 12px 12px #4e4d54f0);
+}
+
+.logo_image_container {
+	background-color: #4e4d54;
+	clip-path: circle(32%);
+}
+
+.logo_image {
+	max-width: 100%;
+	clip-path: circle(30%);
+}
+
+.logo_title {
+	margin-top: 0.5em;
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+	text-transform: uppercase;
+	font-size: 2.5rem;
+	letter-spacing: 0.05em;
+}
+
+main {
+	height: 65%;
+	margin-top: 1em;
+}
+
+.main_container {
+	width: 85%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.table_container {
+	margin: 7em auto 4em;
+	width: 60%;
+}
+
+.table_title {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2rem;
+	font-weight: 100;
+	color: #a1a1a5;
+}
+
+.table_num_container {
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.minus_container, .add_container {
+	font-size: 2rem;
+	display: grid;
+}
+
+.minus_button, .add_button {
+	margin: auto;
+}
+
+.table_number {
+	font-size: 5rem;
+}
+
+.date_container {
+	text-align: center;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.date_title {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2rem;
+	font-weight: 100;
+	margin-bottom: 0.5em;
+	color: #a1a1a5;
+}
+
+.date_time {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 2.3rem;
+	letter-spacing: -0.1em;
+	color: #4e4d54;
+}
+
+.confirm_container {
+	margin-top: 6em;
+	text-align: center;
+	box-shadow: 5px 20px 50px #4e4d54f0;
+}
+
+.confirm_title {
+	background-color: #4e4d54;
+	color: #dee0e3;
+	text-transform: uppercase;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 1.5rem;
+	line-height: 4.7em;
+	letter-spacing: 0.06em;
+}
