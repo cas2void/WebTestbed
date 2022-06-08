@@ -1,0 +1,138 @@
+/* General setup */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0 auto;
+	min-width: 1000px;
+	max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+	float: left;
+	width: 50%;
+}
+
+aside {
+	float: left;
+	width: 30%;
+}
+
+nav {
+	float: left;
+	width: 20%;
+}
+
+footer {
+	clear: both;
+}
+
+header,
+section,
+aside,
+nav,
+footer {
+	padding: 20px;
+}
+
+/* header and footer */
+
+header,
+footer {
+	border-top: 5px solid #a66;
+	border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+:root {
+	font-size: calc(1vw + 0.6em);
+	font-family: 'Noto Serif', serif;
+}
+
+h1, h2 {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+h1 {
+	text-align: center;
+	letter-spacing: 0.09em;
+}
+
+h2 {
+	font-size: 1.2rem;
+	letter-spacing: 0.04em;
+}
+
+p, ul, ol {
+	font-size: 0.7rem;
+	letter-spacing: 0.015em;
+	word-spacing: 0.08em;
+	line-height: 1.6;
+}
+
+h2 + p {
+	text-indent: 1.5em;
+}
+
+a {
+	text-decoration: underline;
+	outline: none;
+}
+
+a, a:visited, a:focus, a:hover {
+	color: #a66;
+}
+
+a:focus, a:hover {
+	text-decoration: none;
+}
+
+a:active {
+	background-color: #a663;
+}
+
+a[href^="http"] {
+	background-image: url('../images/external-link-52.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 1em;
+	padding-right: 1.3em;
+}
+
+p + ul, p + ol {
+	margin: 1.5em auto;
+}
+
+p + ul {
+	list-style-type: square;
+}
+
+nav ul {
+	font-size: 1rem;
+	list-style-type: none;
+	display: grid;
+	gap: 0.9em;
+	padding-left: 0;
+}
+
+nav a {
+	display: block;
+	width: 100%;
+	border: 1px solid #a66;
+	border-radius: 0.1em;
+	line-height: 3;
+	text-decoration: none;
+	text-align: center;
+}
+
+nav a:active {
+	background-color: initial;
+}
+
+footer p {
+	font-size: 0.6rem;
+}
