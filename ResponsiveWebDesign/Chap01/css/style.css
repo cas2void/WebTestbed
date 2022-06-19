@@ -1,0 +1,142 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 1.3rem;
+	padding: 1em 0.5em;
+	line-height: 1.2;
+	max-width: 46em;
+	margin: 0 auto;
+	color: #333;
+	background-color: #f2f2f2;
+}
+
+img {
+	max-width: 100%;
+}
+
+.Header {
+	text-align: center;
+	border-bottom: 8px double #eae8e8;
+	margin-bottom: 1.5em;
+	padding-bottom: 0.8em;
+}
+
+.Strap {
+	font-size: 1rem;
+}
+
+.MoneyShot {
+	position: relative;
+}
+
+.MoneyShotImg {
+	border: 6px solid #e8cfa9;
+	border-radius: 4px;
+}
+
+.LogoWrapper {
+	display: block;
+}
+
+.ImageCaption {
+	font-size: 0.75rem;
+	position: absolute;
+	bottom: 1em;
+	right: 1em;
+	padding: 3px;
+	background-color: #222;
+	color: #e4e4e4;
+}
+
+.IntroText {
+	font-size: 1.8rem;
+	font-style: italic;
+}
+
+.MethodWrapper li {
+	padding: 0.4em 0;
+}
+
+.MethodWrapper li:after {
+	content: "✼";
+	display: block;
+	text-align: center;
+	margin: 0.8em 0 0.4em 0;
+	color: #eae8e8;
+}
+
+@media screen and (min-width: 910px) {
+	body {
+		border-left: 4px solid #eae8e8;
+		border-right: 4px solid #eae8e8;
+		padding: 1rem 2rem;
+	}
+
+	.IntroWrapper {
+		display: flex;
+	}
+
+	.MoneyShot,
+	.IntroText {
+		flex: 1;
+		text-align: center;
+	}
+
+	.IntroText {
+		font-size: 2rem;
+		padding: 0.5em;
+		text-align: left;
+	}
+
+	.Ingredients {
+		font-size: 0.9rem;
+		float: right;
+		padding: 1em;
+		margin: 0 0 0.5em 0.8em;
+		border-radius: 3px;
+		background-color: #ffffdf;
+		border: 2px solid #e8cfa9;
+	}
+
+	.Ingredients h3 {
+		margin: 0;
+	}
+
+	/* original from the book */
+	/* .IntroWrapper {
+		display: table;
+		table-layout: fixed;
+		width: 100%;
+	}
+
+	.MoneyShot,
+	.IntroText {
+		display: table-cell;
+		width: 50%;
+		vertical-align: middle;
+		text-align: center;
+	}
+
+	.IntroText {
+		padding: 0.5rem;
+		font-size: 2.5rem;
+		text-align: left;
+		position: relative;
+	}
+
+	.Ingredients {
+		font-size: 0.9rem;
+		float: right;
+		padding: 1rem;
+		margin: 0 0 0.5rem 1rem;
+		border-radius: 3px;
+		background-color: #ffffdf;
+		border: 2px solid #e8cfa9;
+	}
+
+	.Ingredients h3 {
+		margin: 0;
+	} */
+}
